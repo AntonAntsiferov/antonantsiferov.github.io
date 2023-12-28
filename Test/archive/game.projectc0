@@ -50,7 +50,7 @@ max_fixed_timesteps = 2
 
 [bootstrap]
 main_collection = /main/main.collectionc
-render = /builtins/render/default.renderc
+render = /orthographic/render/orthographic.renderc
 
 [graphics]
 default_texture_min_filter = linear
