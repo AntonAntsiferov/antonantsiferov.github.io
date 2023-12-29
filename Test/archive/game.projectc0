@@ -13,8 +13,8 @@ height = 580
 high_dpi = 0
 samples = 0
 fullscreen = 0
-update_frequency = 0
-swap_interval = 0
+update_frequency = 144
+swap_interval = 1
 vsync = 1
 display_profiles = /builtins/render/default.display_profilesc
 dynamic_orientation = 0
@@ -202,5 +202,5 @@ max_tile_count = 2048
 
 [engine]
 run_while_iconified = 0
-fixed_update_frequency = 60
+fixed_update_frequency = 30
 
