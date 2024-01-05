@@ -16,7 +16,7 @@ fullscreen = 0
 update_frequency = 0
 swap_interval = 1
 vsync = 1
-display_profiles = /builtins/render/default.display_profilesc
+display_profiles = /main/game.display_profilesc
 dynamic_orientation = 0
 display_device_info = 0
 
@@ -154,14 +154,15 @@ app_icon =
 custom_heap_size = 0
 heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
-cssfile = /builtins/manifests/web/light_theme.css
+cssfile = /main/web_manifest.css
+splash_image = /assets/loader.jpg
 archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
 show_fullscreen_button = 1
 show_made_with_defold = 0
-show_console_banner = 1
+show_console_banner = 0
 scale_mode = downscale_fit
 
 [particle_fx]
